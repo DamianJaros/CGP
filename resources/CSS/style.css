@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.kontajner{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/technology.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navigacny_panel{
+    height: 14%;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+h2{
+    color:rgb(255, 255, 255);
+}
+
+h3{
+    color:azure;
+    font-size: 30px;
+}
+
+p2{
+    color:azure;
+    padding-left: 400px;
+}
+
+.logo_logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block; 
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:azure;
+    font-size: 15px;
+}
+
+.riadok {
+    /*display: flex;*/
+    margin-left: 150px;
+    margin-top: 75px;
+   height: 75%;
+    align-items: center;
+}
+
+.stlpec {
+    flex-basis: 50%; /*zabezpečí 50 percent toho flex boxu a druhý tiež*/
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mriezka{
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    display: block;
+    box-sizing: border-box;
+    background-size: cover;
+    margin-top: -130px; 
+}
+
+.mriezka1{
+    /*background-image: url(../images/vypredaj22.png);*/
+    min-width: 3%;
+    min-height: 40%;
+    margin-left: 650px;
+    margin-bottom: 175px;
+}
+
+.mriezka2{
+    /*background-image: url(../images/doprava.png);*/
+    min-width: 1%;
+    min-height: 40%;
+    margin-left: 650px;
+}
+
+.mriezka:hover{
+    transform:translateY(-5px);
+}
+
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+button{
+    width: 150px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 1px 5px 1px;
+    background: azure;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s; /*Urobí prechod vzhľadosť na vlastnosť transform a bude to trvať 0.5s*/
+    margin-left: 5px;
+}
+
+.zoznam{
+    transition: transform 0.5s;
+}
+
+.zoznam:hover{
+    transform: translateY(-5px);
+}
+
+body {background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/wood1.png);;}
+
+
